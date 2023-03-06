@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>CouchKUNST - a.buss-projekt.com</title>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width" />
+    <!-- Analytics -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PG5FCTW');
+    </script>
+    <!-- End Google Tag Manager -->
+  <style>
+    
+    /* latin-ext */
+    @font-face {
+    font-family: 'Inter';
+    src: url(/font/Inter-Regular.ttf) format('truetype');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    
+    html {
+	    font-family: 'Inter', sans-serif;
+      font-style: normal;
+      color: #5B5B5B;
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    h1{
+      /* SOFA:KUNST */
+      width: 314px;
+      height: 61px;      
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 61px;
+      /* identical to box height */
+      color: #D91212;
+    }
+    a:link { text-decoration: none; }
+
+    a:visited { text-decoration: none; }
+
+    a:hover { text-decoration: none; }
+
+    a:active { text-decoration: none; }
+    body {
+      /* Übersetzer */
+      /* Auto layout */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 22px 0px;
+      gap: 16px;
+      position: relative;
+      background: url('./images/hintergrund2.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+    p#demo{
+      color: #D91212;
+    }
+    div.liste{
+      width: 314px;
+      height: 120px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+    div.container{
+      /* Frame 7 */
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 9px 0px 0px;
+      gap: 9px;
+
+      width: 360px;
+      height: 295px;
+
+      background: #487774;
+      border: 1px solid #000000;
+      border-radius: 30px;
+    }
+    div.container.head{
+      /* Frame 6 */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 17px;
+
+    width: 100%;
+    height: 46px;
+    border: 0px;
+
+    /* Inside auto layout */
+    order: 0;
+    flex-grow: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    
+    }
+    img.hand{
+      width: 45px;
+      height: 45px;
+    }
+    img.ebay{
+      width: 96px;
+      height: 46px;
+      border-radius: 20px;
+    }
+  </style>
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Mar 12, 2023 20:57:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = "Noch " + days + " Tage " + hours + " Stunden "
+      + minutes + " Minuten " + seconds + " Sekunden";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG5FCTW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- /Analytics -->
+  <h1><b>CouchKUNST</b></h1>
+  
+  <div class="liste">
+    Dieses Sofa ist einzigartig und bequem. Es verleiht jedem Raum Farbe und Persönlichkeit. Seine Bemalung ist farbecht und waschbar. Es wartet abholbereit in Berlin.
+  </div>
+  <br>
+  <p id="demo"></p>
+  <a href="https://www.ebay.de/itm/185802602818?mkcid=16&mkevt=1&mkrid=707-127634-2357-0&ssspo=_o3MFBdrRSi&sssrc=2047675&ssuid=_o3MFBdrRSi&widget_ver=artemis&media=COPY">
+  <div class="container">
+    <div class="container head"> 
+      Jetzt mitbieten
+      <img src="./images/bieten_ebay.png" alt="ebay_bieten">
+      <img src="./images/hand2.png" alt="hand">
+    </div>
+    <img src="./images/sofa2.png" >
+  </div>
+</a>  
+<div class="text">
+  <p>Abholbar mit z.B. Miles ab 45€. Standort Berlin.</p>
+  <p><b>Die ganze Geschichte</b><br><a href="https://a.buss-projekt.com/sofa">a.buss-projekt.com/sofa</a></p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="panel footer">
+  © ideetipp.de - <a href="https://ideetipp.de/datenschutz" class="link">Datenschutz</a> - <a href="https://ideetipp.de/impressum" class="link">Impressum</a>
+</div>
+</body>
+</html>
